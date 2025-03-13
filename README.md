@@ -45,12 +45,12 @@ Bu yüzden Backtracking + Pruning, en iyi çözüm yolu olacaktır!
 Tam sonucun bulunması veya (+/-)9'a kadar yakın sonucun bulunması takdirinde işlem silsilesi yazdırılmalıdır. Bunun için adımları takip edebileceğimiz liste (**steps**) tutulur. her bir adımda (**step**) birinci sayı, işlem işareti, ikinci sayı ve sonuç tutulur (**{a,op,b,result}**). Doğru sonuç bulunduğunda steps listesi sırayla ekrana yazdırılır. Eğer tam sonuç bulunmuş ise döngü kesilir. Tam sonuç bunmadığı durumlarda işlem bir sonraki ikili sayı kombinasyonuna geçer.
 
 ### Çalışan kod dosyası
-[operation.py](operation.py)
+- [operation.py](operation.py)
 
 ##Çalışan Ekran Görüntüsü
 
-[Tam Sonuç Ekran Görüntüsü](ss_runtime_result_4.png)
-[Tam Sonuç Ekran Görüntüsü](ss_runtime_result_5.png)
-[1 Yaklaşık Sonuç Ekran Görüntüsü](ss_runtime_result_6.png)
-[4 Yaklaşık Sonuç Ekran Görüntüsü](ss_runtime_result_7.png)
-[+9 için Ekran Görüntüsü](ss_runtime_result_8.png)
+- [Tam Sonuç Ekran Görüntüsü](ss_runtime_result_4.png)
+- [Tam Sonuç Ekran Görüntüsü](ss_runtime_result_5.png)
+- [1 Yaklaşık Sonuç Ekran Görüntüsü](ss_runtime_result_6.png)
+- [4 Yaklaşık Sonuç Ekran Görüntüsü](ss_runtime_result_7.png)
+- [+9 için Ekran Görüntüsü](ss_runtime_result_8.png)
