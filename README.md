@@ -36,9 +36,9 @@ Dört işlem fonksiyonu sonucunda her seferinde bölme işlemi sonucuna göre 4 
 Çıkan işlem sonucu tekrar işleme alınabilir olmadır. Bunun içinde yenilenen bir sayı listesine ihtiyacımız var. (**new_numbers**) Aynı zamanda kullanılan sayılar (**used_numbers**) ise tekrar işleme sokulmamalıdır.
 Böylelikle hiç bir sonucu kaçırmamış oluruz. Her çıkan result değeri ile hedef sayı karşılaştırılır. Eğer tam eşleşme yoksa en yakın sonuç hafızada tutulur. (**closest_result**)
 ### Big-O Analizi ve Verimlilik
-Brute Force (Kaba Kuvvet): 𝑂(𝑛!×4^𝑛)
-Backtracking + Pruning: O(2^n) (Kötü durum)
-Dynamic Programming ile Geliştirilmiş Backtracking: O(n^2)
+Brute Force (Kaba Kuvvet): 𝑂(𝑛!×4[^𝑛])
+Backtracking + Pruning: O([2^n]) (Kötü durum)
+Dynamic Programming ile Geliştirilmiş Backtracking: O([n^2])
 Bu yüzden Backtracking + Pruning, en iyi çözüm yolu olacaktır!
 
 ### Backtracking ile hedefi bulma
