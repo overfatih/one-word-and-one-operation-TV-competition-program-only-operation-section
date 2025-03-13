@@ -47,7 +47,7 @@ Tam sonucun bulunması veya (+/-)9'a kadar yakın sonucun bulunması takdirinde 
 ### Çalışan kod dosyası
 - [operation.py](operation.py)
 
-##Çalışan Ekran Görüntüsü
+## Çalışan Ekran Görüntüsü
 
 #### Tam Sonuç Ekran Görüntüsü
   ![Tam Sonuç Ekran Görüntüsü](ss_runtime_result_4.png)
